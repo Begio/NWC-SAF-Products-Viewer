@@ -1,5 +1,7 @@
 # NWC-SAF-Products-Viewer
- Allows to visualize NWC SAF products through the Leaflet library (https://leafletjs.com/).
+https://begio.github.io/NWC-SAF-Products-Viewer/
+
+Allows to visualize NWC SAF products through the Leaflet library (https://leafletjs.com/).
 
 It also uses the following plugins:
 1. Leaflet.StyledLayerControl (https://github.com/davicustodio/Leaflet.StyledLayerControl).
