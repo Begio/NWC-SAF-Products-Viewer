@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NWC SAF Products</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="plugins/leaflet1.0.3/leaflet.css" />
+	<link href="plugins/leaflet-styledlayercontrol/css/styledLayerControl.css" rel="stylesheet" type="text/css">		
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="data_time();">
+<div id="header">
+    <div class="logo">NWC SAF Products DEMO</div>
+</div>
+<div id="controlFlotante">
+</nav>
+
+<table border=0 background="images/fons_menu.png" width="100%">
+<tr>
+	<td><button class="myButton" id="00b">--</button>
+	<button class="myButton" id="03b">--</button>	
+	<button class="myButton" id="06b">--</button>
+	<button class="myButton" id="09b">--</button>
+	<button class="myButton" id="12b">--</button>
+	<button class="myButton" id="15b">--</button>
+	<button class="myButton" id="18b">--</button>
+	<button class="myButton" id="21b">--</button>
+	<button class="myButton" id="beforeb"> << </button>
+	<button class="myButton" id="afterb"> >> </button>
+	<button class="myButtonActive" id="LAST">Last</button>
+	<button class="myButtonPreload" id="preloading" title="Preload Images">Preload</button>
+	</td>
+	<td><a id="fecha" style="color:white; font-size: 13px; font-weight: bold; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;"></a></td>
+	<td><button class="myButton" id="firstb">First</button>
+	<button class="myButton" id="m15b">-15'</button>
+	<button class="myButton" id="p15b">+15'</button>
+	<button class="myButton" id="lastb">Last</button>
+	</td>
+<tr>	
+</table>
+</div>
+
+<center><div id="map">
+<div id="floatingDivLogo" style="top:60px; left: 5%; border-radius: 80px;"><img style="width: 100px;" src="images/NWCSAF2.png"/></div>
+</div>
+</center>
+
+<div id="tableload">
+		<div align="center" style="margin-top: 20%;">
+			<img id="loadico" src="images/loading.gif"/>
+		</div>
+		<br><br><br>
+		<div id="myProgress">
+		  <div id="myBar"></div>
+		</div>		
+</div>
+
+<script src="plugins/leaflet1.0.3/leaflet.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="plugins/leaflet-styledlayercontrol/styledLayerControl.js"></script>	
+<script src="js/script.js"></script>
+</body>
+</html>
