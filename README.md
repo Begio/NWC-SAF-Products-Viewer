@@ -1,4 +1,7 @@
 # NWC-SAF-Products-Viewer
+
+DEMO version. For full features contact me please.
+
 https://begio.github.io/NWC-SAF-Products-Viewer/
 
 Allows to visualize NWC SAF products through the Leaflet library (https://leafletjs.com/).
