@@ -38,22 +38,7 @@
     padding: 3px;
 	font-size: 25px;
     }
-	
-			
-	#floatingDivVariables{
-		z-index: 3; 
-		position: absolute; 
-		background: rgba(244, 244, 244, 0.7);
-		border-radius: 15px;
-		width: 280px; 
-	    left:30px;
-		top:100px;		
-		padding-top: 0px;
-		padding-right: 0px;
-		padding-bottom: 45px;
-		padding-left: 0px; 
-		color: black;
-	}
+
 /* Loader */
 	#inibg	{
 		position:absolute;
@@ -119,20 +104,6 @@
 	  text-align: center;
 	}	
 /*----*/	
-	#floatingDivSatellite{
-		z-index: 3; 
-		position: absolute; 
-		background: rgba(244, 244, 244, 0.7);
-		border-radius: 15px;
-		width: 210px; 
-		right:30px;
-		top:100px;		
-		padding-top: 0px;
-		padding-right: 0px;
-		padding-bottom: 45px;
-		padding-left: 0px; 
-		color: black;
-	}
 	
 	#floatingDivSearch{
 		z-index: 3; 
