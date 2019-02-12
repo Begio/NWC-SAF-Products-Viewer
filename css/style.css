@@ -294,7 +294,7 @@
 	}	
 
 	#floatingDivLogo{
-		z-index: 10000; 
+		z-index: 8000; 
 		position: fixed; 
 		background-color: rgba(244, 244, 244, 0.95);
 		width: 1px; 
