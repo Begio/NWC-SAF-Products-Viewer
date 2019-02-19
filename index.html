@@ -1,35 +1,35 @@
-<!--- VERSION 1.1 11/02/2019 
-
+<!--- VERSION 1.5 19/02/2019 
 This web app was developed by Sergio Gallego.
+
 Weather Forecaster at Servei Meteorologic de Catalunya (Meterological Service of Catalonia).
 For inquiries related to this web app, please contact: https://www.linkedin.com/in/sergasan/
 
 All meteorological data owns to Eumetsat. Contact E-mail: safnwchd@aemet.es.
 -->
 
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
 	<title>NWC SAF MapViewer</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta property='og:image' content="images/NWCSAF.jpg"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="plugins/leaflet1.0.3/leaflet.css" />
 	<link href="plugins/leaflet-styledlayercontrol/css/styledLayerControl.css" rel="stylesheet" type="text/css">		
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/base.css" rel="stylesheet" type="text/css">		
+	
 </head>
 <body onload="data_time();">
-<a href="//github.com/Begio/NWC-SAF-Products-Viewer"><img style="position: fixed; bottom: 0; left: 0; border: 0; z-index: 1000000" src="images/forkme_right_green_6d6d6d.png" alt="Fork me on GitHub"></a>	
+<a href="//github.com/Begio/NWC-SAF-Products-Viewer"><img style="position: fixed; bottom: 0; left: 0; border: 0; z-index: 1000000" src="images/forkme_right_green_6d6d6d.png" alt="Fork me on GitHub"></a>
 <div id="inibg">
 	<div id="loader"></div>
 </div>
 <div id="header">
-    <div class="logo">NWC SAF MapViewer DEMO v1.1</div>
+    <div class="logo">NWC SAF MapViewer DEMO v1.5</div>
 </div>
 <div id="controlFlotante">
 </nav>
 
-<table border=0 background="images/fons_menu.png" width="100%">
+<table border=0 width="100%">
 <tr>
 	<td><button class="btn" id="00b">--</button>
 	<button class="btn" id="03b">--</button>	
@@ -42,7 +42,6 @@ All meteorological data owns to Eumetsat. Contact E-mail: safnwchd@aemet.es.
 	<button class="btn" id="beforeb"> << </button>
 	<button class="btn" id="afterb"> >> </button>
 	<button class="btnActive" id="LAST">Last</button>
-	<button class="btnPreload" id="preloading" title="Preload Images">Preload</button>
 	</td>
 	<td><a id="fecha" style="color:white; font-size: 13px; font-weight: bold; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;"></a></td>
 	<td><button class="btn" id="firstb">First</button>
@@ -72,6 +71,6 @@ All meteorological data owns to Eumetsat. Contact E-mail: safnwchd@aemet.es.
 <script src="plugins/leaflet1.0.3/leaflet.js"></script>
 <script src="js/jquery-1.11.2.min.js"></script>
 <script src="plugins/leaflet-styledlayercontrol/styledLayerControl.js"></script>	
-<script src="js/script.js"></script>
+<script src="js/base.js"></script>
 </body>
 </html>
