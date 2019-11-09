@@ -1,4 +1,4 @@
-<!--- VERSION 1.5 19/02/2019 
+<!--- VERSION 1.6 24/03/2019 
 This web app was developed by Sergio Gallego.
 
 Weather Forecaster at Servei Meteorologic de Catalunya (Meterological Service of Catalonia).
@@ -13,18 +13,18 @@ All meteorological data owns to Eumetsat. Contact E-mail: safnwchd@aemet.es.
 	<title>NWC SAF MapViewer</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="plugins/leaflet1.0.3/leaflet.css" />
+	<link rel="stylesheet" href="plugins/leaflet1.4.0/leaflet.css" />
 	<link href="plugins/leaflet-styledlayercontrol/css/styledLayerControl.css" rel="stylesheet" type="text/css">		
 	<link href="css/base.css" rel="stylesheet" type="text/css">		
 	
 </head>
 <body onload="data_time();">
-<a href="//github.com/Begio/NWC-SAF-Products-Viewer"><img style="position: fixed; bottom: 0; left: 0; border: 0; z-index: 1000000" src="images/forkme_right_green_6d6d6d.png" alt="Fork me on GitHub"></a>
+<!--<a href="//github.com/Begio/EUMeTrain-ePort-MapViewer"><img style="position: fixed; bottom: 0; left: 0; border: 0; z-index: 1000000" src="images/forkme_right_green_6d6d6d.png" alt="Fork me on GitHub"></a>-->	
 <div id="inibg">
 	<div id="loader"></div>
 </div>
 <div id="header">
-    <div class="logo">NWC SAF MapViewer DEMO v1.5</div>
+    <div class="logo">NWC SAF MapViewer v1.6</div>
 </div>
 <div id="controlFlotante">
 </nav>
@@ -48,6 +48,7 @@ All meteorological data owns to Eumetsat. Contact E-mail: safnwchd@aemet.es.
 	<button class="btn" id="m15b">-15'</button>
 	<button class="btn" id="p15b">+15'</button>
 	<button class="btn" id="lastb">Last</button>
+	<button class="btnPreload" id="preloading">Preload</button>
 	</td>
 <tr>	
 </table>
@@ -63,13 +64,14 @@ All meteorological data owns to Eumetsat. Contact E-mail: safnwchd@aemet.es.
 			<img id="loadico" src="images/loading.gif"/>
 		</div>
 		<br><br><br>
-		<div id="myProgress">
+		<center><p>Loading...</p></center>
+		<div id="myProgress">		
 		  <div id="myBar"></div>
 		</div>		
 </div>
 
-<script src="plugins/leaflet1.0.3/leaflet.js"></script>
-<script src="js/jquery-1.11.2.min.js"></script>
+<script src="plugins/leaflet1.4.0/leaflet.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
 <script src="plugins/leaflet-styledlayercontrol/styledLayerControl.js"></script>	
 <script src="js/base.js"></script>
 </body>
