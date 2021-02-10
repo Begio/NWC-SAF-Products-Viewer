@@ -1,6 +1,6 @@
 # NWC-SAF-Products-Viewer
 
-New Update v.1.6.2019.11.10
+New Update v.1.6.2021.01.01
 
 Live App: https://begio.github.io/NWC-SAF-Products-Viewer/
 
